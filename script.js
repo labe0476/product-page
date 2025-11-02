@@ -16,7 +16,7 @@ productContainer.innerHTML = products
   .map(function (value, index, array) {
     return `
     <div class="eachItem">
-        <img src="../images/${value.image}">
+        <img src="images/${value.image}">
         <p class="itemName">${value.name}</p>
         <p class="price">Price: ₦  ${value.price}</p>
         <button class="button">Add to Cart</button>
